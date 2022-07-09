@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class ConjuredItem extends Item implements IItem{
+public class ConjuredItem extends NormalItem implements IItem{
 
 	public ConjuredItem(String name, int sellIn, int quality) {
 		super(name, sellIn, quality);
